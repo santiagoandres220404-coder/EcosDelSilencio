@@ -57,7 +57,7 @@ public class Juego {
         Decision decision = escenario.obtenerDecision(opcion - 1);
         decision.aplicar(jugador);
 
-        System.out.println("\n--- RESULTADOS ---");
+        System.out.println("\n RESULTADOS ");
         System.out.println("Empatía: " + jugador.getEmpatia());
         System.out.println("Estrés: " + jugador.getEstres());
     }
